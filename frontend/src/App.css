@@ -1,0 +1,91 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #79747E;
+}
+
+input {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #79747E;
+  color: #79747E;
+}
+
+input:focus-visible {
+  color: #6750A4;
+  outline: #6750A4 solid 1.5px;
+}
+
+button {
+  display: block;
+  margin: 0 10px;
+  width: 7%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #79747E;
+  cursor: pointer;
+  background-color: #FFFBFE;
+  color: #6750A4;
+  transition: 0.2s;
+}
+
+button:hover {
+  box-shadow: 0 2px 4px #79747E;
+}
+
+#main{
+  width: 55%;
+  position: fixed;
+  top: 25%;
+  left: 23%;
+}
+
+#main h1{
+  font-family: 'Roboto Serif';
+  font-weight: bold;
+  margin: 0;
+  font-size: 15vw;
+  color: #6750A4;
+}
+
+#main h2{
+  font-family: 'Roboto Serif';
+  font-weight: bold;
+  margin: 0;
+  font-size: 12vw;
+  color: #6750A4;
+}
+
+#main p{
+  font-size: 1.2vw;
+  margin: 0;
+  margin-top: -3%;
+}
+
+.countryInfo{
+  margin: 1% auto;
+  display: block;
+  width: 50%;
+  background-color: #E7E0EC;
+  outline: #79747E solid 1px;
+  padding: 2%;
+  border-radius: 20px;
+  opacity: 80%;
+}
+
+.countryInfo h2{
+  text-align: center;
+}
+
+.textInfo{
+  width: 50%;
+}
+
+.countryInfo img{
+  float: right;
+  width: 40%;
+}
