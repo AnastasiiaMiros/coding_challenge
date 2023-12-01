@@ -100,7 +100,7 @@ button:hover {
   .countryInfo{
     width: 90%;
     margin: 5% auto;
-    padding: 3%;
+    padding: 5% 3%;
   }
   .countryInfo img{
     float: none;
