@@ -16,7 +16,7 @@ function SearchPage(props){
     }
 
     const findCountries = async() => {
-        await axios.get(`http://localhost:4000/api/countries/${search}`)
+        await axios.get(`https://countries-explorer-backend.vercel.app/api/countries/${search}`)
         .then(res => {
             props.setData(res.data)
             props.setIfFound(true)
