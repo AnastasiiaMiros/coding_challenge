@@ -67,7 +67,7 @@ button:hover {
 }
 
 .countryInfo{
-  margin: 1% auto;
+  margin: 2% auto;
   display: block;
   width: 50%;
   background-color: #E7E0EC;
@@ -88,4 +88,21 @@ button:hover {
 .countryInfo img{
   float: right;
   width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  input{
+    width: 90%;
+  }
+  button{
+    display: none;
+  }
+  .countryInfo{
+    width: 90%;
+    margin: 5% auto;
+    padding: 3%;
+  }
+  #main p{
+    font-size: 3vw;
+  }
 }
