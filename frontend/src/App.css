@@ -102,6 +102,16 @@ button:hover {
     margin: 5% auto;
     padding: 3%;
   }
+  .countryInfo img{
+    float: none;
+    width: 100%;
+  }
+  .countryInfo h2{
+    margin-top: 0;
+  }
+  .textInfo{
+    width: 100%;
+  }
   #main p{
     font-size: 3vw;
   }
